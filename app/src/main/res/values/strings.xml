@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">RUTAS S.A.C.</string>
+    <string name="navigation_drawer_open">Abrir menú de navegación</string>
+    <string name="navigation_drawer_close">Cerrar menú de navegación</string>
+
+    <!-- Menú del Navigation Drawer (Secciones exactamente: Inicio, Perfil, Ajustes) -->
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Perfil</string>
+    <string name="menu_slideshow">Ajustes</string>
+
+    <!-- Menú superior Toolbar -->
+    <string name="action_logout">Cerrar sesión</string>
+    <string name="action_support">Soporte</string>
+
+    <!-- Header Drawer -->
+    <string name="nav_header_title">RUTAS S.A.C.</string>
+    <string name="nav_header_subtitle">Transporte y Encomiendas</string>
+
+    <!-- Pantalla Inicio (HomeFragment) -->
+    <string name="home_welcome_title">Bienvenido a RUTAS</string>
+    <string name="home_welcome_subtitle">Sistema interno de colaboradores</string>
+    <string name="home_input_hint">Ingrese el nombre del colaborador</string>
+    <string name="btn_notify_welcome">Enviar Notificación Saludo</string>
+    <string name="btn_register_activity">Registrar actividad</string>
+    <string name="btn_view_profile">Ver mi perfil</string>
+
+    <!-- Pantalla Perfil (GalleryFragment) -->
+    <string name="profile_title">Ficha de Perfil</string>
+    <string name="profile_name_label">Nombre: %1$s</string>
+    <string name="profile_area_label">Área: %1$s</string>
+    <string name="profile_exp_label">Años de Experiencia: %1$d años</string>
+    <string name="btn_search_google">Buscar en Google</string>
+
+    <!-- Pantalla Ajustes (SlideshowFragment) -->
+    <string name="settings_title">Ajustes de la Aplicación</string>
+    <string name="theme_status_light">Tema actual: Claro</string>
+    <string name="theme_status_dark">Tema actual: Oscuro</string>
+    <string name="btn_toggle_theme">Cambiar Tema (Claro / Oscuro)</string>
+
+    <!-- Mensajes de Notificación -->
+    <string name="notification_channel_name">Notificaciones RUTAS</string>
+    <string name="notification_channel_desc">Canal para avisos y actividades de colaboradores</string>
+
+    <!-- Ejercicio 5: Indicadores y Animación -->
+    <string name="home_performance_title">Indicador de Rendimiento</string>
+    <string name="home_performance_level">Nivel de Eficiencia Operativa: 85%</string>
+    <string name="btn_toggle_performance">Mostrar / Ocultar Rendimiento</string>
+    <string name="animation_title">Monitoreo de Estado (Animación en bucle)</string>
+</resources>

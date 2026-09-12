@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_celeste">#0284C7</color>
+    <color name="black">#000000</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="divider_color">#CBD5E1</color>
+    <color name="light_bg_celeste">#E8F1F5</color>
+    <color name="primary_dark_blue">#1B365D</color>
+    <color name="primary_variant">#0F2537</color>
+    <color name="text_primary">#1E293B</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="white">#FFFFFF</color>
+    <string name="action_logout">Cerrar sesión</string>
+    <string name="action_support">Soporte</string>
+    <string name="app_name">RUTAS S.A.C.</string>
+    <string name="btn_notify_welcome">Enviar Notificación Saludo</string>
+    <string name="btn_register_activity">Registrar actividad</string>
+    <string name="btn_search_google">Buscar en Google</string>
+    <string name="btn_toggle_theme">Cambiar Tema (Claro / Oscuro)</string>
+    <string name="btn_view_profile">Ver mi perfil</string>
+    <string name="home_input_hint">Ingrese el nombre del colaborador</string>
+    <string name="home_welcome_subtitle">Sistema interno de colaboradores</string>
+    <string name="home_welcome_title">Bienvenido a RUTAS</string>
+    <string name="menu_gallery">Perfil</string>
+    <string name="menu_home">Inicio</string>
+    <string name="menu_slideshow">Ajustes</string>
+    <string name="nav_header_subtitle">Transporte y Encomiendas</string>
+    <string name="nav_header_title">RUTAS S.A.C.</string>
+    <string name="navigation_drawer_close">Cerrar menú de navegación</string>
+    <string name="navigation_drawer_open">Abrir menú de navegación</string>
+    <string name="notification_channel_desc">Canal para avisos y actividades de colaboradores</string>
+    <string name="notification_channel_name">Notificaciones RUTAS</string>
+    <string name="profile_area_label">Área: %1$s</string>
+    <string name="profile_exp_label">Años de Experiencia: %1$d años</string>
+    <string name="profile_name_label">Nombre: %1$s</string>
+    <string name="profile_title">Ficha de Perfil</string>
+    <string name="settings_title">Ajustes de la Aplicación</string>
+    <string name="theme_status_dark">Tema actual: Oscuro</string>
+    <string name="theme_status_light">Tema actual: Claro</string>
+    <style name="Theme.RojasQuispeAngelaDeniss" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/primary_dark_blue</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/accent_celeste</item>
+        <item name="colorSecondaryVariant">@color/accent_celeste</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+    <style name="Theme.RojasQuispeAngelaDeniss.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.RojasQuispeAngelaDeniss.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.RojasQuispeAngelaDeniss.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>
